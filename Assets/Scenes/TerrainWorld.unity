@@ -2377,6 +2377,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Interceptor
       objectReference: {fileID: 0}
+    - target: {fileID: 115512, guid: 7be733fca5977484eab72a8eca73b1b2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 437054, guid: 7be733fca5977484eab72a8eca73b1b2, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -3096,6 +3100,10 @@ PrefabInstance:
     - target: {fileID: 4806314413834434899, guid: c1f37a58f95e4c04482900877a9a9bd0, type: 3}
       propertyPath: m_Name
       value: Enemy Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 4806314413834434899, guid: c1f37a58f95e4c04482900877a9a9bd0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4806314413834855795, guid: c1f37a58f95e4c04482900877a9a9bd0, type: 3}
       propertyPath: m_RootOrder
@@ -4124,7 +4132,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3896919985066190264, guid: 809cf282f88f90440bbac0472a5084a8, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 3896919985066190264, guid: 809cf282f88f90440bbac0472a5084a8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4168,7 +4176,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3896919985066190265, guid: 809cf282f88f90440bbac0472a5084a8, type: 3}
       propertyPath: m_Name
-      value: GameObject
+      value: Screamer
       objectReference: {fileID: 0}
     - target: {fileID: 3896919985066190265, guid: 809cf282f88f90440bbac0472a5084a8, type: 3}
       propertyPath: m_IsActive
@@ -4271,7 +4279,7 @@ Transform:
   - {fileID: 1640839078}
   - {fileID: 970573597}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2019899058 stripped
 GameObject:

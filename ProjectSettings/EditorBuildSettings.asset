@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Lobby.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
+    path: Assets/Scenes/GameIntro.unity
+    guid: 9e438f90c0fec7041b8b68fba33a4252
+  - enabled: 1
     path: Assets/Scenes/TerrainWorld.unity
     guid: e8b838184055ee541870e22393a7cb1c
   m_configObjects: {}
