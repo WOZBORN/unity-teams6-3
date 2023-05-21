@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    [SerializeField] int maxHealth = 100;
+    [SerializeField] private int maxHealth;
     private int currentHealth;
-    [SerializeField] HealthBar healthBar;
+    [SerializeField] private HealthBar healthBar;
 
-    void Start()
+    private void Start()
     {
         currentHealth = maxHealth;
         healthBar.SetBarValue(currentHealth, maxHealth);
